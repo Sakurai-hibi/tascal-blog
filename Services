@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>サービス紹介｜HibiWorks</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+  <!-- ヘッダー -->
+  <header class="bg-gray-100 p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">HibiWorks</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="index.html" class="hover:underline">ホーム</a>
+        <a href="services.html" class="hover:underline font-bold">サービス</a>
+        <a href="contact.html" class="hover:underline">お問い合わせ</a>
+        <a href="blog1.html" class="hover:underline">ブログ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- タイトル -->
+  <section class="bg-blue-50 py-12 text-center">
+    <h2 class="text-3xl font-semibold">HibiWorksのサービス紹介</h2>
+    <p class="mt-2 text-gray-600">日々の行動を支える、実用的で継続しやすい仕組みをご提供します。</p>
+  </section>
+
+  <!-- サービス一覧 -->
+  <section class="py-12 px-4 max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- TasCal -->
+      <div class="bg-white shadow-md rounded p-6">
+        <h3 class="text-2xl font-bold mb-2">TasCal（タスカル）</h3>
+        <p class="mb-4">個人向けタスク・カレンダー管理アプリ。PWA対応でスマホにも最適化され、日々のタスクをBotと一緒に整理・継続できます。Lite／Premiumの2プランに加え、ペアプランや紹介特典なども用意されています。</p>
+        <ul class="list-disc pl-6 mb-4 text-sm text-gray-700">
+          <li>日／週／月のカレンダー表示に対応</li>
+          <li>タスクの重要度・カテゴリ分け</li>
+          <li>チャットBotによるタスク分解・スケジュール生成</li>
+          <li>ログインボーナス・紹介キャンペーンあり</li>
+        </ul>
+        <a href="index.html" class="text-blue-600 hover:underline text-sm">詳しくはこちら</a>
+      </div>
+
+      <!-- 今後の展開 -->
+      <div class="bg-white shadow-md rounded p-6">
+        <h3 class="text-2xl font-bold mb-2">今後のサービス（予定）</h3>
+        <p class="mb-4">HibiWorksでは、以下のようなサービスも今後展開予定です。</p>
+        <ul class="list-disc pl-6 text-sm text-gray-700">
+          <li>自己分析を支援するAIツール</li>
+          <li>習慣化支援に特化したミニアプリ</li>
+          <li>副業・ライフログ向けの簡易管理ツール</li>
+        </ul>
+        <p class="mt-4 text-sm text-gray-500">※現在は開発・検討段階です。</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="bg-gray-100 py-6 text-center text-sm">
+    <p>&copy; 2025 HibiWorks. All rights reserved.</p>
+    <div class="mt-2 space-x-4">
+      <a href="terms.html" class="hover:underline">利用規約</a>
+      <a href="privacy.html" class="hover:underline">プライバシーポリシー</a>
+      <a href="contact.html" class="hover:underline">お問い合わせ</a>
+    </div>
+  </footer>
+</body>
+</html>
